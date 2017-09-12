@@ -1,0 +1,18 @@
+---
+classes:
+  - base
+  - base::puppet
+  - base::tools
+  - bash
+  - zsh
+  - ssh
+  - ssh::authorized_keys
+  - ntp
+
+ssh::authorized_keys::keys:
+    clef_julien:
+        ensure: "present"
+        user: "root"
+        type: "ssh-rsa"
+        key: "AAAAB3NzaC1yc2EAAAADAQABAAABAQDfLorZu476uAtZdvXgoVnHIzxUEJsZSApJnuAQ9QR9r5dcb6PRUOBGcFQrGllOnjcSyYqA67PDnG/gyMOOCGDXxcLeYzEnzzR5KAQzZ/zKRGdS4lW5HutJCTsHL48Sikw6/rnF9hauHQeY2Ksian1+iNdSgfiqui5l7mC0iaDQvEf18GyYrZ4k2LuMiyrZZO7mbMnmJXgrO2fSALxmXbYNzIOUZxSa+2FO7jt0VXds7sshjocEPF+mowI/3zJm5+8/C17hBIyDq9mhL0wa2CYc1nTaikGnfvKcmKuwAl7Ku0n3KL6m3JcqANTRsc36C49K6tKAUdnOqkHPEX6gx7vL"
+        target: "/root/.ssh/authorized_keys"
