@@ -10,7 +10,7 @@ classes:
   - ntp
 
 ssh::authorized_keys::keys:
-    clef_julien:
+    cle_jlejeune:
         ensure: "present"
         user: "root"
         type: "ssh-rsa"
