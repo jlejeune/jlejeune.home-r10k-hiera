@@ -2,7 +2,6 @@
 classes:
   - base
   - base::puppet
-  - base::tools
   - bash
   - zsh
   - ssh
