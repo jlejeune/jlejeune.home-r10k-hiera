@@ -2,6 +2,7 @@
 classes:
   - base
   - base::puppet
+  - base::tmux
   - bash
   - zsh
   - ssh
