@@ -29,8 +29,8 @@ base::user::users:
   #  managehome: true
 
 ssh::authorized_keys::keys:
-    cle_jlejeune:
+    jlejeune_key:
         ensure: "present"
         user: "jlejeune"
         type: "ssh-rsa"
-        key: "AAAAB3NzaC1yc2EAAAADAQABAAABAQDfLorZu476uAtZdvXgoVnHIzxUEJsZSApJnuAQ9QR9r5dcb6PRUOBGcFQrGllOnjcSyYqA67PDnG/gyMOOCGDXxcLeYzEnzzR5KAQzZ/zKRGdS4lW5HutJCTsHL48Sikw6/rnF9hauHQeY2Ksian1+iNdSgfiqui5l7mC0iaDQvEf18GyYrZ4k2LuMiyrZZO7mbMnmJXgrO2fSALxmXbYNzIOUZxSa+2FO7jt0VXds7sshjocEPF+mowI/3zJm5+8/C17hBIyDq9mhL0wa2CYc1nTaikGnfvKcmKuwAl7Ku0n3KL6m3JcqANTRsc36C49K6tKAUdnOqkHPEX6gx7vL"
+        key: "AAAAB3NzaC1yc2EAAAADAQABAAABAQDJN46Q02Xf6b7mHQMyIvUaukBp0j/qWd1uIio1e0WW8nA9P977bBonR5XK6trLJsEACIiajL2kxkhEqHrbkmqg0wBteayJSJ/rzWdVzdtPA5LoxqhCzAJGGf2g3kQgNn7Gt6YuIic2ppqSb97GPdHYb2UR8R8fSVLwPpqg8AsoR8USwPpGHcF12z2L/D7B1mE45VeymeTxkkXRSLLK72sk3/mn/1Wss1o+FIxRYrJRgKiAUiKNNKT+0bkQXKyjRcoZN+Ltdi25N5IBDP9Vm985/PkPY99ZZZuMs+F5zDPIfO18r6VnJ7/pfS2HG2aKbtH9oeN8bKKdBIhHQEYUtLSP"
