@@ -45,7 +45,7 @@ ohmyzsh::themes:
   jlejeune:
     theme: 'powerlevel9k/powerlevel9k'
   root:
-    theme: 'tonotdo'
+    theme: 'powerlevel9k/powerlevel9k'
 
 ohmyzsh::plugins:
   jlejeune:
